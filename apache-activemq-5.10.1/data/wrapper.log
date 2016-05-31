@@ -1,0 +1,58 @@
+STATUS | wrapper  | 2015/09/02 13:04:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/09/02 13:04:57 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/02 13:05:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/02 13:05:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/02 13:05:00 | 
+INFO   | jvm 1    | 2015/09/02 13:05:00 | 
+INFO   | jvm 1    | 2015/09/02 13:05:00 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/02 13:05:00 |             C:\Users\isguser\Desktop\apache-activemq-5.10.1\bin\win32\..\..\bin\win32\wrapper.dll
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           Reported cause:
+INFO   | jvm 1    | 2015/09/02 13:05:00 |             C:\Users\isguser\Desktop\apache-activemq-5.10.1\bin\win32\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/02 13:05:00 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/02 13:05:00 | 
+INFO   | jvm 1    | 2015/09/02 13:05:00 | Java Runtime: Oracle Corporation 1.8.0_31 C:\Program Files\Java\jre1.8.0_31
+INFO   | jvm 1    | 2015/09/02 13:05:00 |   Heap sizes: current=125952k  free=116574k  max=932352k
+INFO   | jvm 1    | 2015/09/02 13:05:00 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win32 -Dwrapper.key=zUKTlXySb9N5AZ8j -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7860 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2015/09/02 13:05:00 | Extensions classpath:
+INFO   | jvm 1    | 2015/09/02 13:05:00 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2015/09/02 13:05:00 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2015/09/02 13:05:00 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2015/09/02 13:05:00 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2015/09/02 13:05:00 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2015/09/02 13:05:00 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2015/09/02 13:05:00 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@12be940d: startup date [Wed Sep 02 13:05:00 MDT 2015]; root of context hierarchy
+INFO   | jvm 1    | 2015/09/02 13:05:02 |  INFO | PListStore:[C:\Users\isguser\Desktop\apache-activemq-5.10.1\bin\win32\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2015/09/02 13:05:02 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\isguser\Desktop\apache-activemq-5.10.1\bin\win32\..\..\data\kahadb]
+INFO   | jvm 1    | 2015/09/02 13:05:02 |  INFO | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+INFO   | jvm 1    | 2015/09/02 13:05:03 |  INFO | KahaDB is version 5
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Recovery replayed 38 operations from the journal in 0.046 seconds.
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-57099-1441220704020-0:1) is starting
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Listening for connections at: tcp://ISG-141576:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Listening for connections at: amqp://ISG-141576:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Listening for connections at: stomp://ISG-141576:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Listening for connections at ws://ISG-141576:1884?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Connector mqtt+ws started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Listening for connections at ws://ISG-141576:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Connector ws started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-57099-1441220704020-0:1) started
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2015/09/02 13:05:04 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2015/09/02 13:05:05 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2015/09/02 13:10:30 |  WARN | Transport Connection to: tcp://127.0.0.1:57120 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2015/09/02 13:10:30 |  WARN | Transport Connection to: tcp://127.0.0.1:57119 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2015/09/02 13:14:34 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:57117 failed: java.io.EOFException
+INFO   | jvm 1    | 2015/09/02 13:31:43 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:57145 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://0:0:0:0:0:0:0:1:57145
+INFO   | jvm 1    | 2015/09/02 13:33:42 |  WARN | Transport Connection to: tcp://127.0.0.1:57147 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2015/09/02 13:33:42 |  WARN | Transport Connection to: tcp://127.0.0.1:57148 failed: java.net.SocketException: Connection reset
