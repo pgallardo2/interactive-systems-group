@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="battle" nextScene="none">
+	<event id="a31"><animation>talking_1</animation></event>
+	<event id="m31"><dialog>Whew!. Now that was exciting! Maybe a bit too exciting.</dialog></event>
+	<event id="e31"><trigger object="Head" method="SetEmotion">happy,surprised</trigger></event>
+	<event id="p1">
+		<response>
+			<grammar jump_id="ay31">
+				<item>yes</item>
+				<item>yes it was</item>
+				<item>definitively</item>
+				<item>too excited for my taste</item>
+				<item>i agree</item>
+				<item>whatever you say</item>
+				<item>I also thought it was exciting</item>	
+				<item>i think so too</item>
+				<item>that was fun</item>
+				<item>im glad you liked it</item>
+			</grammar>
+			<grammar jump_id="an31">
+				<item>no</item>
+				<item>nonsense</item>
+				<item>not really</item>
+				<item>are you kidding</item>
+				<item>i dont think so</item>	
+				<item>i expected more</item>
+				<item>ill do it again</item>
+				<item>not really</item>
+				<item>why too exciting</item>
+				<item>it was okay</item>
+				<item>i dont know</item>
+				<item>it was just fine</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay31"><animation>talking</animation></event>
+	<event id="my31"><dialog>Yeah, let’s try to keep a low profile here.</dialog></event>
+	<event id="ey31" jump_id="a32a"><trigger object="Head" method="SetEmotion">sad,fearful</trigger></event>
+	<event id="an31"><animation>talking</animation></event>	
+	<event id="mn31"><dialog>You like action, eh? Get ready, I think we</dialog></event>
+	<event id="en31" jump_id="a32a"><trigger object="Head" method="SetEmotion">sad,fearful</trigger></event>
+	<event id="a32a"><animation>yelling</animation></event>		
+	<event id="m32"><dialog>Yes! Yes, yes, yes!</dialog></event>
+	<event id="e32"><trigger object="Head" method="SetEmotion">cocky,happy</trigger></event>		
+	<event id = "battleMusic"><trigger object = "BattleMusic" method = "Play"/></event>
+	<event id = "boss1"><trigger object = "Boss" method = "ProcessNextState"/></event>
+	<event id = "w1"><wait/></event>
+	<event id="a32b"><animation>pointing</animation></event>	
+	<event id="e32"><trigger object="Head" method="SetEmotion">surprised</trigger></event>
+	<event id="m32b"><dialog>Oh no, no, no! Quick, you deal</dialog></event>
+	<event id="a32c"><animation>magic</animation></event>	
+	<event id="t2"><trigger object="AgentFireball" method="Shoot"/></event>
+	<event id="h1"><trigger object="Main Camera" method="TurnOnHints">1</trigger></event>
+	<event id="m32c"><dialog>You’ll have to take it from here.</dialog></event>
+	<event id="a32d"><animation>magic</animation></event>	
+	<event id="e32"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="p2">
+		<response>
+			<grammar jump_id="t3">
+				<item>inflamo</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="t3"><trigger object="Fireball" method="Shoot"/></event>
+	<event id="a33"><animation>yelling</animation></event>	
+	<!--event id="w11" jimp_id="p2"><wait/></event-->
+	<event id="m33"><dialog>Just one more.</dialog></event>
+	<event id="p3">
+		<response>
+			<grammar jump_id="t4">
+				<item>inflamo</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="t4"><trigger object="Fireball" method="Shoot"/></event>
+	<event id="w21"><wait/></event>
+	<event id="a32a"><animation>talking</animation></event>	
+	<event id="h2"><trigger object="Main Camera" method="TurnOnHints">0</trigger></event>
+	<event id="m34"><dialog>Good, now let’s get out of here!</dialog></event>
+	<event id = "endsequence"><trigger object = "StartSceneSequencer" method = "startSequence">0</trigger></event>
+	<event id="end"><wait/></event>
+</scene>

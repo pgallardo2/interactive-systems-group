@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="movieAgent" nextScene = "none">
+	<event id="d1"><dialog>I love watching movies! Watching movies is one of my
+	    favorite passtimes. The last movie I saw was Star Wars the Force Awakens.
+		It was really fun and full of action, but I missed Yoda. Have you seen any movies, lately?</dialog></event>
+	<event id="listen1">
+		<response>
+			<grammar jump_id="d2-1">
+				<item>yes</item>
+				<item>I think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>yeah I do</item>
+				<item>of course I do</item>
+				<item>sure</item>
+			</grammar>
+			<grammar jump_id="d2-2">
+				<item>no</item>
+				<item>I don't think so</item>
+				<item>no I don't</item>
+				<item>I doubt it</item>
+				<item>nah</item>
+				<item>nope</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d2-1" jump_id="listen2"><dialog>Interesting. Tell me about the
+	    movie and what was good and bad about it.</dialog></event>
+	<event id="d2-2" jump_id="listen2"><dialog>It's okay! Then tell me about your favorite movie, then. Why is it your favorite?</dialog></event>
+	<event id="listen2">
+	    <response>
+	        <grammar jump_id="d3">
+	            <item>wildcard</item>
+	        </grammar>
+	    </response>
+	</event>
+	<event id="d3"><dialog>Wow! You know, my favorite movie is Beetlejuice. I watch it
+	    every month, and sometimes more than once each month. It is truly a
+	    greate movie! How many times have you watched your
+	    favorite movie?</dialog></event>	
+	<event id="listen3">
+	    <response>
+	        <grammar jump_id="d4">
+	            <item>wildcard</item>
+	        </grammar>
+	    </response>
+	</event>
+	<event id="d4"><dialog>You know, I saw Beetlejuice five times! I remember
+	    watching Beetlejuice for that fifth time and thinking how I was
+	    detached from the movie at the part where the ghosts, Adam and Barbara,
+	    had to save Lydia from marrying Beetlejuice. That was when I realized it
+	    was a movie. Have you ever felt that way in a movie, when watching
+	    it?</dialog></event>
+	<event id="listen4">
+		<response>
+			<grammar jump_id="d5-1">
+				<item>yes</item>
+				<item>I think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>yeah I do</item>
+				<item>of course I do</item>
+				<item>sure</item>
+			</grammar>
+			<grammar jump_id="d5-2">
+			    <item>no</item>
+				<item>I don't think so</item>
+				<item>no I don't</item>
+				<item>I doubt it</item>
+				<item>nah</item>
+				<item>nope</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d5-1"><dialog>What was it that made you realize it was a
+	    movie?</dialog></event>
+	<event id="d5-2"><dialog>Tell me about what in the movie kept you so
+	    engaged.</dialog></event>
+	<event id="listen5">
+	    <response>
+			<grammar jump_id="d6">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d6"><dialog>Wow, you know, movies have come a long way, with
+	    3D and I max. Things like that. I know that people have been working hard
+	    on making movies even more immersive. What sorts of new movie
+	    experiences do you think will come next?</dialog></event>
+	<event id="listen6">
+		<response>
+			<grammar jump_id="d7">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d7"><dialog>Oh, okay. I'm looking forward to movie experiences
+	    in the future, I hope you are, too! Let's talk again
+	    soon.</dialog></event>
+</scene>

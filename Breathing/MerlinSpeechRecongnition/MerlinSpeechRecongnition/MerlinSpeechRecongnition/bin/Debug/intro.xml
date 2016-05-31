@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="intro" nextScene="walk">
+	<event id="a1"><animation>yelling</animation></event>
+	<event id="m11"><dialog>What in all the heavens!</dialog></event>
+	<event id="e1"><trigger object="Head" method="SetEmotion">surprised,fearful</trigger></event>
+	<event id="p1">
+		<response>
+			<grammar jump_id="ay2">
+				<item>yes</item>
+				<item>i think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>i can</item>
+				<item>yeah i can</item>
+				<item>yes i can</item>
+				<item>of course i can</item>
+				<item>sure</item>
+				<item>i can talk</item>
+				<item>yeah i can talk</item>
+				<item>of course i can talk</item>
+				<item>cant you hear me</item>
+				<item>hello</item>
+				<item>i hear you</item>
+				<item>what</item>
+				<item>hello</item>
+			</grammar>
+			<grammar jump_id="an2">
+				<item>no</item>
+				<item>i cant</item>
+				<item>no i cant</item>
+				<item>i dont think so</item>
+				<item>i cant speak</item>
+				<item>i dont know</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay2"><animation>talking</animation></event>
+	<event id="my11"><dialog>Good, good.</dialog></event>
+	<event id="ey11" jump_id="m12"><trigger object="Head" method="SetEmotion">normal</trigger></event>
+	<event id="an2"><animation>talking</animation></event>
+	<event id="mn11"><dialog>Nonsense, I can hear</dialog></event>
+	<event id="en11" jump_id="m12"><trigger object="Head" method="SetEmotion">angry</trigger></event>	
+	<event id="m12"><dialog>Who are you?</dialog></event>
+	<event id="p2">
+		<response>
+			<grammar jump_id="a13">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="a13"><animation>talking_1</animation></event>
+	<event id="m13"><dialog>Now that's quite an... </dialog></event>
+	<event id="e13"><trigger object="Head" method="SetEmotion">disgusted</trigger></event>
+	<event id="p3">
+		<response>
+			<grammar jump_id="a14">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="a14"><animation>talking</animation></event>
+	<event id="m14"><dialog>Never heard of it</dialog></event>
+	<event id="e14"><trigger object="Head" method="SetEmotion">cocky</trigger></event>
+	<event id="p4">
+		<response>
+			<grammar jump_id="ay14">
+				<item>yes</item>
+				<item>i think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>i can</item>
+				<item>yeah i can</item>
+				<item>yes i can</item>
+				<item>of course i can</item>
+				<item>sure</item>
+				<item>sure why not</item>
+				<item>why not</item>
+			</grammar>
+			<grammar jump_id="an14">
+				<item>no</item>
+				<item>i cant</item>
+				<item>no i cant</item>
+				<item>i dont think so</item>
+				<item>i dont know</item>
+				<item>wizardly stuff</item>
+				<item>what kind of stuff</item>
+				<item>it depends</item>
+				<item>maybe</item>
+				<item>perhaps</item>
+				<item>what stuff</item>
+				<item>whatever</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay14"><animation>talking</animation></event>
+	<event id="my14"><dialog>Good, wonderful</dialog></event>
+	<event id="ey14"  jump_id="m15"><trigger object="Head" method="SetEmotion">normal</trigger></event>
+	<event id="an14"><animation>talking</animation></event>
+	<event id="mn14"><dialog>Oh pls! It will be</dialog></event>
+	<event id="en14" jump_id="a15"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="a15"><animation>standing_arguing</animation></event>
+	<event id="m15"><dialog>Before we set out</dialog></event>
+	<event id="e12"><trigger object="Head" method="SetEmotion">sad,disgusted</trigger></event>
+	<event id="p5">
+		<response>
+			<grammar jump_id="ay15">
+				<item>yes</item>
+				<item>i think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>got it</item>
+				<item>yeah i got it</item>				
+				<item>yes i got it</item>				
+				<item>sure</item>
+				<item>ok</item>
+				<item>sounds good</item>
+				<item>right</item>
+				<item>fine</item>
+				<item>alright</item>
+				<item>gottcha</item>
+				<item>why not</item>
+				<item>fuck yeah</item>
+				<item>lead the way</item>
+			</grammar>
+			<grammar jump_id="an15">
+				<item>no</item>
+				<item>what</item>
+				<item>say what</item>
+				<item>not really</item>
+				<item>maybe</item>				
+				<item>got what</item>
+				<item>what do you mean</item>
+				<item>i dont know</item>
+				<item>maybe</item>
+				<item>excuse me</item>
+				<item>whatever</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay15"><animation>talking</animation></event>
+	<event id="my15"><dialog>Good, just don't talk to me like</dialog></event>
+	<event id="ey15" jump_id="a16"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="an15"><animation>standing_arguing</animation></event>
+	<event id="mn15"><dialog>Dammit! It's not that complicated.</dialog></event>
+	<event id="en15" jump_id="a16"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="a16"><animation>talking_1</animation></event>
+	<event id="m16"><dialog>Now, where was I? Yes, yes.</dialog></event>
+	<event id="e12"><trigger object="Head" method="SetEmotion">normal</trigger></event>
+	<event id="p6">
+		<response>
+			<grammar jump_id="ay16">
+				<item>yes</item>
+				<item>i think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>i am</item>
+				<item>yeah i am</item>
+				<item>yes i am</item>
+				<item>of course i am</item>			
+				<item>sure</item>
+				<item>why not</item>
+				<item>im ready</item>
+			</grammar>
+			<grammar jump_id="an16">
+				<item>no</item>
+				<item>nope</item>
+				<item>what</item>
+				<item>ready for what</item>
+				<item>for what</item>
+				<item>say what</item>
+				<item>not really</item>	
+				<item>i am not ready</item>
+				<item>what do you mean</item>>
+				<item>maybe</item>
+				<item>i guess</item>
+				<item>of course not</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay16"><animation>talking</animation></event>
+	<event id="my16"><dialog>Fantastic, on we go, then!</dialog></event>
+	<event id="ey16" jump_id="a17"><trigger object="Head" method="SetEmotion">happy</trigger></event>
+	<event id="an16"><animation>talking</animation></event>
+	<event id="mn16"><dialog>This is what I get for asking</dialog></event>
+	<event id="en16" jump_id="a17"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="a17"><animation>talking</animation></event>
+	<event id="m17"><dialog>We don't want to miss the daylight</dialog></event>
+	<event id="e12"><trigger object="Head" method="SetEmotion">normal</trigger></event>
+</scene>

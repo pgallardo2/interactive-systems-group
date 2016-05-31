@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="vacationAgent" nextScene = "none">
+	<event id="d1"><dialog>Vacations are my favorite part of the year. The last
+	    vacation I went to was to South Padre Island, Texas. I remember the
+	    scent of the open water when I visited the beaches. I remember I ate at
+	    this wonderful seafood restaurant. There, I had the best shrimp gumbo
+	    you can possibly imagine. Have you been
+	    on vacation lately?</dialog></event>
+	<event id="listen1">
+		<response>
+			<grammar jump_id="d2-1">
+				<item>yes</item>
+				<item>I think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>yeah I do</item>
+				<item>of course I do</item>
+				<item>sure</item>
+			</grammar>
+			<grammar jump_id="d2-2">
+				<item>no</item>
+				<item>I don't think so</item>
+				<item>no I don't</item>
+				<item>I doubt it</item>
+				<item>nah</item>
+				<item>nope</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d2-1" jump_id="listen2"><dialog>Awesome! Tell me about this vacation.</dialog></event>
+	<event id="d2-2" jump_id="listen2"><dialog>Aw, shucks. Then tell me about
+	    the vacation you remember best.</dialog></event>
+	<event id="listen2">
+	    <response>
+	        <grammar jump_id="d3">
+	            <item>wildcard</item>
+	        </grammar>
+	    </response>
+	</event>
+	<event id="d3"><dialog>Interesting! You know, South Padre was great, but one
+	    place I'd really like to visit is Germany. The rich history is a great
+	    draw, and they have the best soccer team, of course! Tell me about
+	    where you would go if you had the chance to go anywere you
+	    wanted.</dialog></event>	
+	<event id="listen3">
+	    <response>
+	        <grammar jump_id="d4">
+	            <item>wildcard</item>
+	        </grammar>
+	    </response>
+	</event>
+	<event id="d4"><dialog>Wonderful! One place I must visit if I went to
+	    Germany would be the Autobahn! Unfortunately, from what I hear, there
+	    are actually speed limits for it. What would you do for fun in your
+	    dream destination?</dialog></event>
+	<event id="listen4">
+		<response>
+			<grammar jump_id="d5">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="d5"><dialog>I hope we can both get to experience our dream
+	    vacations. I'm looking forward to traveling in the future, I hope you
+	    are, too! This was fun! Let's talk again soon.</dialog></event>
+</scene>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="SceneTheater">
+	<event id="dialog1"><dialog>Sorry, I didn't even introduce myself, my name is Taema, what is yours?.</dialog></event>
+	<event id="p1">
+		<response>
+			<grammar jump_id="dialog2">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="dialog2"><dialog>Nice to meet you.</dialog></event>	
+	<event id="dialog3"><dialog>I know the council trusts you because of your past detective work, but do you need any clarification about the case?</dialog></event>	
+	<event id="p2">
+		<response>
+			<grammar jump_id="dialog4">
+				<item>Did you hear what I was playing</item>
+				<item>Did you hear what I was playing, Lane?</item>
+			</grammar>
+			<grammar jump_id="dialog7">
+				<item>how are you</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="dialog4"><dialog>Well the amulet we are looking for is a powerful artifact that holds the power of Takaroa, the sea god</dialog></event>	
+	<event id="dialog5"><dialog>After all these years, the city, er well actually, most of the outer ring has became ravaged with all sorts of disasters.</dialog></event>
+	<event id="dialog6" jump_id = "e1"><dialog>If we can find the amulet and return it to the temple of Losi, then everything should go back to normal.</dialog></event>
+	<event id="dialog7"><dialog>Alright, that's fine with me.</dialog></event>
+	<event id="e1"></event>
+</scene>

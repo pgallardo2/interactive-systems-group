@@ -699,3 +699,53 @@ javax.jms.InvalidClientIDException: Broker: localhost - Client: Agent Connection
 2016-05-18 15:14:50,997 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
 2016-05-18 15:14:51,048 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
 2016-05-18 15:14:51,417 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2016-05-31 15:34:43,693 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5e0a14a: startup date [Tue May 31 15:34:43 MDT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-05-31 15:34:45,329 | INFO  | PListStore:[C:\Users\isguser\Documents\GitHub\interactive-systems-group\apache-activemq-5.10.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-05-31 15:34:45,563 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\isguser\Documents\GitHub\interactive-systems-group\apache-activemq-5.10.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2016-05-31 15:34:45,763 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-05-31 15:34:46,225 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 15:34:46,266 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 15:34:46,295 | INFO  | Recovery replayed 604 operations from the journal in 0.049 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 15:34:46,468 | INFO  | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-52287-1464730486319-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-05-31 15:34:46,568 | INFO  | Listening for connections at: tcp://ISG-141576:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 15:34:46,573 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 15:34:46,588 | INFO  | Listening for connections at: amqp://ISG-141576:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 15:34:46,592 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 15:34:46,611 | INFO  | Listening for connections at: stomp://ISG-141576:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 15:34:46,614 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 15:34:46,790 | INFO  | Listening for connections at ws://ISG-141576:1884?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2016-05-31 15:34:46,791 | INFO  | Connector mqtt+ws started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 15:34:46,809 | INFO  | Listening for connections at ws://ISG-141576:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2016-05-31 15:34:46,811 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 15:34:46,814 | INFO  | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-52287-1464730486319-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-05-31 15:34:46,817 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-05-31 15:34:47,159 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-05-31 15:34:47,234 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-05-31 15:34:47,653 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2016-05-31 16:25:34,171 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5e0a14a: startup date [Tue May 31 16:25:34 MDT 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2016-05-31 16:25:36,151 | INFO  | PListStore:[C:\Users\isguser\Documents\GitHub\interactive-systems-group\apache-activemq-5.10.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2016-05-31 16:25:36,337 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\isguser\Documents\GitHub\interactive-systems-group\apache-activemq-5.10.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2016-05-31 16:25:36,462 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2016-05-31 16:25:37,104 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 16:25:37,152 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 16:25:37,191 | INFO  | Recovery replayed 441 operations from the journal in 0.059 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2016-05-31 16:25:37,418 | INFO  | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-54805-1464733537240-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2016-05-31 16:25:37,553 | INFO  | Listening for connections at: tcp://ISG-141576:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 16:25:37,558 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 16:25:37,575 | INFO  | Listening for connections at: amqp://ISG-141576:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 16:25:37,579 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 16:25:37,599 | INFO  | Listening for connections at: stomp://ISG-141576:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2016-05-31 16:25:37,603 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 16:25:37,796 | INFO  | Listening for connections at ws://ISG-141576:1884?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2016-05-31 16:25:37,797 | INFO  | Connector mqtt+ws started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 16:25:37,817 | INFO  | Listening for connections at ws://ISG-141576:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2016-05-31 16:25:37,819 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2016-05-31 16:25:37,822 | INFO  | Apache ActiveMQ 5.10.1 (localhost, ID:ISG-141576-54805-1464733537240-0:1) started | org.apache.activemq.broker.BrokerService | main
+2016-05-31 16:25:37,825 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2016-05-31 16:25:38,343 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2016-05-31 16:25:38,412 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2016-05-31 16:25:38,938 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2016-05-31 17:02:30,177 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:51171 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:51171@61616
+2016-05-31 17:25:34,553 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:52213 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:52213@61616
+2016-05-31 17:29:14,604 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:52361 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:52361@61616
+2016-05-31 17:31:28,439 | WARN  | Transport Connection to: tcp://0:0:0:0:0:0:0:1:49765 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///0:0:0:0:0:0:0:1:49765@61616

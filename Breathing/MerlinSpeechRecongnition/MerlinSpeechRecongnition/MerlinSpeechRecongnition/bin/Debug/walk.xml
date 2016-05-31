@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="walk" nextScene="battle">
+	<event id="a21"><animation>talking_1</animation></event>
+	<event id="m21"><dialog>Can you speak "Latin"?</dialog></event>
+	<event id="e1"><trigger object="Head" method="SetEmotion">disgusted</trigger></event>
+	<event id="p1">
+		<response>
+			<grammar jump_id="ay21">
+				<item>yes</item>
+				<item>i think so</item>
+				<item>of course</item>
+				<item>yeah</item>
+				<item>i can</item>
+				<item>yeah i can</item>
+				<item>yes i can</item>
+				<item>of course i can</item>
+				<item>sure</item>
+				<item>i know some words</item>
+				<item>i know some latin</item>
+				<item>fuck yeah</item>
+				<item>a little bit</item>
+				<item>i know the root words</item>
+				<item>sort of</item>
+				<item>kind of</item>
+				<item>what is that</item>
+			</grammar>
+			<grammar jump_id="an21">
+				<item>no</item>
+				<item>i cant</item>
+				<item>no i cant</item>
+				<item>i dont think so</item>
+				<item>i dont think i can</item>
+				<item>Latin</item>
+				<item>I dont think so</item>
+				<item>not that i know of</item>
+				<item>maybe</item>				
+			</grammar>
+		</response>
+	</event>
+	<event id="ay21"><animation>talking</animation></event>
+	<event id="my21"><dialog>What the... You are</dialog></event>
+	<event id="ey21" jump_id="m22"><trigger object="Head" method="SetEmotion">surprised,happy</trigger></event>
+	<event id="an21"><animation>talking</animation></event>
+	<event id="mn21"><dialog>I thought so. Not many</dialog></event>
+	<event id="en21" jump_id="a22"><trigger object="Head" method="SetEmotion">cocky</trigger></event>
+	<event id="a22"><animation>talking_1</animation></event>
+	<event id="m22"><dialog>The point is: most spells are in</dialog></event>
+	<event id="e22"><trigger object="Head" method="SetEmotion">sadly,disgusted</trigger></event>
+	<event id="p2">
+		<response>
+			<grammar jump_id="ay22">
+				<item>yes</item>
+				<item>i will try it</item>
+				<item>i could try</item>
+				<item>yeah</item>
+				<item>sure</item>
+				<item>why not</item>
+				<item>why the hell not</item>
+				<item>i would</item>
+				<item>yes i would</item>
+				<item>yes i would like to try it</item>
+				<item>i would like to try it</item>
+				<item>fuck yeah</item>
+				<item>why not</item>
+				<item>what kind of spells</item>
+			</grammar>
+			<grammar jump_id="an22">
+				<item>nah</item>
+				<item>no</item>
+				<item>i cant</item>
+				<item>no i cant</item>
+				<item>i dont think so</item>
+				<item>i dont think i can</item>	
+				<item>not really</item>
+				<item>i dont want to try</item>
+				<item>id rather not</item>
+				<item>no thanks</item>	
+				<item>whatever you say</item>
+				<item>not really</item>
+				<item>like harry potter</item>				
+			</grammar>
+		</response>
+	</event>
+	<event id="ay22"><animation>talking</animation></event>
+	<event id="my22"><dialog>Fine. We should start with something simple like fire</dialog></event>
+	<event id="ey22"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="a1"><animation>standing_cast_spell</animation></event>
+	<!--Parameter is fireball intensity. Currently, 0 is off and 1 is active, will add more later if we got time.-->
+	<event id="t1"><trigger object="AgentFireball" method="Shoot"/></event>
+	<event id="myt22"><dialog>Go ahead, try it</dialog></event>
+	<event id="ey22" jump_id="p3"><trigger object="Head" method="SetEmotion">happy</trigger></event>
+	<event id="an22"><animation>standing_arguing</animation></event>	
+	<event id="mn22"><dialog>Look, I asked whether you</dialog></event>
+	<event id="en22"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<!--event id="t2"><trigger object="AgentFireball" method="Shoot"/></event-->
+	<event id="mnt22"><dialog>See, it’s easy! Now, your turn.</dialog></event>
+	<event id="en22"><trigger object="Head" method="SetEmotion">cocky</trigger></event>
+	<event id="t2"><trigger object="AgentFireball" method="Shoot"/></event>	
+	<event id="p3">
+		<response>
+			<grammar jump_id="a23">
+				<item>inflamo</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="a23"><animation>talking_1</animation></event>
+	<event id="m23"><dialog>Hmm, close, but not quite.</dialog></event>
+	<!--event id="t21"><trigger object="AgentFireball" method="Shoot"/></event-->
+	<event id="e23"><trigger object="Head" method="SetEmotion">happy,disgusted</trigger></event>
+	<event id="mt23"><dialog>Your turn again.</dialog></event>	
+	<event id="t21"><trigger object="AgentFireball" method="Shoot"/></event>
+	<event id="p4">
+		<response>
+			<grammar jump_id="t3"> <!--t3-->
+				<item>inflamo</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="t3"><trigger object="Fireball" method="Shoot"/></event>
+	<event id="a24"><animation>talking</animation></event>
+	<event id="m24"><dialog>Whoa! I can see some sparks. Good, good</dialog></event>
+	<event id="e24"><trigger object="Head" method="SetEmotion">happy,surprised</trigger></event>	
+	<event id="p4">
+		<response>
+			<grammar jump_id="t4"> <!--t4-->
+				<item>inflamo</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="t4"><trigger object="Fireball" method="Shoot"/></event>
+	<event id="a25"><animation>standing_arguing</animation></event>
+	<event id="m25"><dialog>Gadzooks! That's incredible, not</dialog></event>
+	<event id="e23"><trigger object="Head" method="SetEmotion">happy,disgusted</trigger></event>
+	<event id="p5">
+		<response>
+			<grammar jump_id="ay25">
+				<item>nope</item>
+				<item>no</item>
+				<item>never</item>
+				<item>i never have</item>
+				<item>i dont know</item>
+				<item>not that i know of</item>
+				<item>i dont think so</item>
+				<item>ive never done this before</item>
+				<item>probably not</item>
+			</grammar>
+			<grammar jump_id="an25">
+				<item>yes</item>
+				<item>maybe</item>
+				<item>probably</item>
+				<item>i think i have</item>
+				<item>i have</item>
+				<item>i actually have</item>
+				<item>i might of</item>
+				<item>of course</item>
+				<item>of course ive done it before</item>
+				<item>fuck yeah</item>
+				<item>just in video games</item>
+			</grammar>
+		</response>
+	</event>
+	<event id="ay25"><animation>talking_1</animation></event>
+	<event id="my25"><dialog>Hmm, unless there is something</dialog></event>
+	<event id="ey25" jump_id="m26"><trigger object="Head" method="SetEmotion">angry</trigger></event>
+	<event id="an25"><animation>talking_1</animation></event>
+	<event id="mn25"><dialog>Memory problems I see, interesting...</dialog></event>
+	<event id="en25" jump_id="m26"><trigger object="Head" method="SetEmotion">happy,disgusted</trigger></event>
+	<event id="m26"><dialog>Of course, don't go</dialog></event>
+	<event id="e26"><trigger object="Head" method="SetEmotion">normal</trigger></event>
+	<event id = "sound4"><trigger object = "ThunderSFX" method = "Play"/></event>
+	<event id = "sound7"><trigger object = "FrogsSFX" method = "Stop"/></event>
+	<event id = "sound8"><trigger object = "ToadsSFX" method = "Stop"/></event>
+	<event id = "sound9"><trigger object = "WaterSFX" method = "Stop"/></event>
+	<event id = "sound3"><trigger object = "GrowlSFX" method = "Play"/></event>
+	<!-- Appear monster here -->
+	<!-- I suggest we put a wait here in order to give characters time to react -->
+	<!--event id = "wait"><wait/></event-->
+	<event id="et5"><trigger object="Head" method="SetEmotion">fearful,surprised</trigger></event>
+	<event id = "sound5"><trigger object = "CrowSFX" method = "Play"/></event>
+	<!-- Merlin points behind you -->
+	<event id="a27"><animation>pointing</animation></event>
+	<event id="m27"><dialog>Lesson over! I suggest we get out of here, NOW!</dialog></event>
+	<event id = "sound6"><trigger object = "TenseMusic" method = "Play"/></event>
+	<event id = "startrunning"><trigger object = "Start Scene Sequencer" method = "startSequence">0</trigger></event>
+	<event id = "wait"><wait/></event>
+</scene>

@@ -1,0 +1,21 @@
+c:\users\diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe.config
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\Apache.NMS.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.csprojResolveAssemblyReference.cache
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.exe
+C:\Users\Diego\documents\visual studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe.config
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.exe
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\Inmerssion1\Desktop\Merlin\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.csprojResolveAssemblyReference.cache
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe.config
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.exe
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\obj\Debug\MerlinSpeechRecongnition.csprojResolveAssemblyReference.cache
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.exe
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\MerlinSpeechRecongnition.pdb
+C:\Users\isguser\Documents\Visual Studio 2013\Projects\MerlinSpeechRecongnition\MerlinSpeechRecongnition\MerlinSpeechRecongnition\bin\Debug\Microsoft.Speech.dll
