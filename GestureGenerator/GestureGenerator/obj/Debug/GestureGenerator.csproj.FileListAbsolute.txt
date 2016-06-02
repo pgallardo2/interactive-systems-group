@@ -1,0 +1,53 @@
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.baml
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.g.cs
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\App.g.cs
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.cache
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.lref
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe.config
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.pdb
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\bin\Debug\Apache.NMS.dll
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.baml
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.g.resources
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.Properties.Resources.resources
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csproj.GenerateResource.Cache
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.exe
+C:\Users\Caro\Source\Workspaces\Workspace\Agent\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.pdb
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe.config
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.exe
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.pdb
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.pdb
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csprojResolveAssemblyReference.cache
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.baml
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.g.cs
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.g.cs
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\App.g.cs
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.cache
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.lref
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.baml
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.g.resources
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.Properties.Resources.resources
+E:\ISG\Team Folders\Alfonso\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csproj.GenerateResource.Cache
+C:\ISG\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe.config
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.exe
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.pdb
+C:\ISG\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.exe
+C:\ISG\GestureGenerator\GestureGenerator\bin\Debug\GestureGenerator.pdb
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csprojResolveAssemblyReference.cache
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.baml
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.g.cs
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\SkeletonViewer.g.cs
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\App.g.cs
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.cache
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator_MarkupCompile.lref
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\MainWindow.baml
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.g.resources
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.Properties.Resources.resources
+C:\ISG\GestureGenerator\GestureGenerator\obj\Debug\GestureGenerator.csproj.GenerateResource.Cache

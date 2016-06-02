@@ -1,0 +1,22 @@
+﻿The following text file shows what joint each array position contains
+
+joints[0] = AnkleLeft
+joints[1] = AnkleRight
+joints[2] = ElbowLeft
+joints[3] = ElbowRight
+joints[4] = FootLeft
+joints[5] = FootRight
+joints[6] = HandLeft
+joints[7] = HandRight
+joints[8] = Head
+joints[9] = HipCenter
+joints[10] = HipLeft
+joints[11] = HipRight
+joints[12] = KneeLeft
+joints[13] = KneeRight
+joints[14] = ShoulderCenter
+joints[15] = ShoulderLeft
+joints[16] = ShoulderRight
+joints[17] = Spine
+joints[18] = WristLeft
+joints[19] = WristRight
